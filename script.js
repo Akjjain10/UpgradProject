@@ -20,9 +20,13 @@ function namecheck(){
 function numberCheck(){
     var x=document.getElementById('number').value;
     var len=x.length;
-    if(len<10 && len>10)
+    if(len<10)
     {
-        alert("sfe");
+        alert("Number must be of 10 digits");
+    }
+    else if(len>10)
+    {
+        alert("Number must be of 10 digits");
     }
 }
 
