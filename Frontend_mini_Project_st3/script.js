@@ -39,17 +39,9 @@ function required()
 var namec = document.getElementById('name').value;
 var emailc=document.getElementById('email').value;
 var numberc=document.getElementById('number').value;
-if (namec==="")
+if (namec==="" || emailc==="" || numberc==="")
 {
-alert("Please Enter your name");
-}
-else if(numberc==="")
-{
-    alert("Please Enter your Number");
-}
-else if(emailc==="")
-{
-    alert("Please Enter your Email");
+alert("Please Fill the form");
 }
 else{
     var div=document.getElementById('show');
