@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+        <title>
+            Scribbler
+        </title>
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/header.css">
+    </head>
+    <body class="body" style="background-image: url(background.jpg);">
+      <!-- TODO: Include all your code for the header and home page here -->
+        <div class="container">
+            <div class="head">
+        <button class="signup" id="signup">Sign Up</button>
+        <!-- The Modal -->
+        <div id="signupmodal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close" id="closesignup">&times;</span>
+        <center><h2>Get Started</h2></center><hr>
+      </div>
+      <div class="modal-body">
+          <!--Form-->
+          <form >
+            <label for="fname"><b>Full Name</b></label>
+            <input type="text" id="fname" name="fullname" placeholder="Enter Full Name" required>
+        
+            <label for="uname"><b>Username</b></label>
+            <input type="text" id="uname" name="username" placeholder="Enter Username" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+            <label for="cpassword"><b>Confirm Password</b></label>
+            <input type="password" id="cpassword" name="cpassword" placeholder="Current Password" required>
+
+            <button id="signupsubmit">Sign Up</button>
+          </form>
+            
+
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+
+        <button class="signin" id="signin">Sign In</button>
+<!-- The Modal -->
+<div id="signinmodal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close" id="closesignin">&times;</span>
+      <center><h2>Welcome Back!</h2></center><hr>
+    </div>
+    <div class="modal-body">
+        <!--Form-->
+        <form >
+          <label for="uname"><b>Username</b></label>
+          <input type="text" id="uname" name="username" placeholder="Enter Username" required>
+
+          <label for="password"><b>Password</b></label>
+          <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+          <button id="signinsubmit">Sign In</button>
+        </form>
+    </div>
+    <div class="modal-footer">
+      <center><h4>Not a member?<a href="#" id="signuplink">Sign Up</a></h4></center> 
+    </div>
+  </div>
+</div>
+<div class="logoheading">
+
+            <span class="logo">ScriBBler</span>
+            <p class="tagline">Explore Imagine Create</p>
+          </div>
+</div>
+        <div class="postButtons"><br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <a href="bloglist.htm"><button class="allpost" id="allpost"><b>All Posts</b></button></a>
+            
+            <button class="createpost" id="createpost"><b>Create Post</b></button>
+            <!-- The Modal -->
+<div id="createmodal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close" id="closecreate">&times;</span>
+      <center><h2>Pen Your Post</h2></center>
+    </div>
+    <div class="modal-body">
+        <!--Form-->
+        <form >
+          <label for="title"><b>Title:</b></label>
+          <input type="text" id="title" name="title" required>
+
+          <label for="content"><b>Content:</b></label>
+          <textarea id="textarea" name="textarea" style="height:200px" required></textarea>
+
+          <center><button id="createsubmit">Create</button></center>
+        </form>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+</div>
+
+        </div>
+        </div>
+        <script src="scripts/header.js"></script>
+        <script src="scripts/home.js"></script>
+    </body>
+</html>
