@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+        <title>
+            Scribbler
+        </title>
+        <link rel="stylesheet" href="../styles/post.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="head">
+                <button class="signup" id="signup">Sign Up</button>
+                <!-- The Modal -->
+                <div id="signupmodal" class="modal">
+        
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close" id="closesignup">&times;</span>
+                <center><h2>Get Started</h2></center><hr>
+              </div>
+              <div class="modal-body">
+                  <!--Form-->
+                  <form >
+                    <label for="fname"><b>Full Name</b></label>
+                    <input type="text" id="fname" name="fullname" placeholder="Enter Full Name" required>
+                
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" id="uname" name="username" placeholder="Enter Username" required>
+        
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        
+                    <label for="cpassword"><b>Confirm Password</b></label>
+                    <input type="password" id="cpassword" name="cpassword" placeholder="Current Password" required>
+        
+                    <button id="signupsubmit">Sign Up</button>
+                  </form>
+                    
+        
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        
+                <button class="signin" id="signin">Sign In</button>
+        <!-- The Modal -->
+        <div id="signinmodal" class="modal">
+        
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close" id="closesignin">&times;</span>
+              <center><h2>Welcome Back!</h2></center><hr>
+            </div>
+            <div class="modal-body">
+                <!--Form-->
+                <form >
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" id="uname" name="username" placeholder="Enter Username" required>
+        
+                  <label for="password"><b>Password</b></label>
+                  <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        
+                  <button id="signinsubmit">Sign In</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <center><h4>Not a member?<a href="#" id="signuplink">Sign Up</a></h4></center> 
+            </div>
+          </div>
+        </div>
+        <div class="logoheading">
+        
+                    <span class="logo">ScriBBler</span>
+                    <p class="tagline">Explore Imagine Create</p>
+                  </div>
+        </div>
+        <!--<div class="body">
+            <br><br><br><br><br><center><h1>The legacy of Jimi Hendrix</h1></center><br>
+            <span id="author">JIMI</span>
+            <button id="save">Save</button>
+            <button id="edit">Edit</button>
+            <textarea id="textarea-content"></textarea>
+            <p>The first Jimi Hendrix song I heard was his rendition of Bob Dylan’s All Along The Watchtower around the age of thirteen. I remember being overwhelmed by the musical style that, at that point in my life, I couldn’t really place or understand. But I kept coming back to it, at first reluctantly – the song in the playlist you usually skip but are forced to listen to sometimes because you cannot reach your device – then excessively and obsessively – the song you put on repeat because nothing else seems good enough. From there, I inevitably fell further down the rabbit hole. For a good year and a half of my life I didn’t listen to much else than the entire Jimi Hendrix discography. So how did music that was written and recorded decades ago excite a millennial and why should you give Jimi Hendrix another spin in 2020?</p>
+        </div>
+        </div>-->
+        <div class="content"><br><br><br><br>
+            <h1 id="headingtopic">The Legend jimi</h1>
+            <textarea type="text" id="textareaheading"></textarea>
+            <div class="buttons">
+                <p id="author">JIMI</p>
+                <button id="edit" onclick="editpost()">Edit <i class="fa fa-edit" style="font-size:24px"></i></button>
+                <!-- hidden button for save -->
+                <button id="save" onclick="savepost()">Save <i class="fa fa-save" style="font-size:24px"></i></button>
+            </div>
+            <p id="contentbody">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Ut ornare lectus sit amet est placerat in. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Turpis massa tincidunt dui ut ornare lectus sit amet. A diam sollicitudin tempor id eu nisl. Et netus et malesuada fames ac. Lobortis scelerisque fermentum dui faucibus in ornare quam. Eget sit amet tellus cras adipiscing enim eu turpis egestas. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Aliquet sagittis id consectetur purus ut faucibus pulvinar. Ultricies tristique nulla aliquet enim. Pretium viverra suspendisse potenti nullam ac tortor. Nibh venenatis cras sed felis eget velit aliquet. Diam quam nulla porttitor massa id neque. In massa tempor nec feugiat nisl pretium. Sem integer vitae justo eget magna fermentum. Sem viverra aliquet eget sit. In egestas erat imperdiet sed euismod nisi porta. Eleifend donec pretium vulputate sapien nec sagittis. Nibh cras pulvinar mattis nunc sed blandit. Tempus quam pellentesque nec nam. Amet risus nullam eget felis eget nunc lobortis. Nullam eget felis eget nunc lobortis. Feugiat in fermentum posuere urna nec tincidunt. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Dignissim sodales ut eu sem integer vitae justo eget. Placerat in egestas erat imperdiet sed euismod nisi porta. At volutpat diam ut venenatis tellus in metus vulputate eu. Eu non diam phasellus vestibulum. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Ut porttitor leo a diam sollicitudin tempor id. Amet volutpat consequat mauris nunc. Purus non enim praesent elementum facilisis. In est ante in nibh mauris cursus mattis molestie a. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Vestibulum lorem sed risus ultricies tristique nulla. Congue quisque egestas diam in arcu cursus euismod quis viverra. Nisi vitae suscipit tellus mauris a diam maecenas sed. Morbi tempus iaculis urna id volutpat lacus laoreet non. Elementum pulvinar etiam non quam lacus suspendisse. Vitae congue eu consequat ac felis donec. Libero enim sed faucibus turpis in eu. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Accumsan in nisl nisi scelerisque. Neque convallis a cras semper auctor neque vitae tempus quam. Ullamcorper sit amet risus nullam eget felis eget nunc. Mauris cursus mattis molestie a iaculis at erat pellentesque.
+            </p>
+            <textarea id="editcontent"></textarea>
+            <button id="like" onclick="likepost()"><i class="fa fa-thumbs-up" style="font-size:24px"></i> Like</button>
+            <p id="likecount">Be first one to like this!</p>
+            <textarea id="commentleave" placeholder="leave a comment..."></textarea><br>
+            <button id="comment" onclick="postcomment()">Comment</button>
+            <h3 id="commenthead">ALL Comments</h3>
+            <div id="allcomment">
+        
+            </div>
+        </div>
+        <script src="../scripts/header.js"></script>
+        <script src="../scripts/post.js"></script>
+    </body>
+</html>

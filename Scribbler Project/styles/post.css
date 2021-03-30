@@ -1,0 +1,118 @@
+
+/*  Body CSS  */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+.content{
+    margin: 0 5%;
+}
+
+.content #headingtopic{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Handlee', cursive;
+}
+.content #textareaheading{
+    margin:0px auto;
+    display:none;
+    height: 34px;
+    overflow: hidden;
+    width: auto;
+    font-size: 30px;
+    border: 2px solid lightpink;
+    font-family: 'Handlee', cursive;
+}
+
+.content .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content .buttons #author{
+    font-size: 20px;
+    font-family: 'Aclonica', sans-serif;
+}
+
+
+.content .buttons #edit{
+    height: 40px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+
+}
+
+.content .buttons #save{
+    display: none;
+    height: 40px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+
+}
+.content #like{
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 40px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+    border-radius: 5px;
+}
+.content #commentleave{
+    height: 100px;
+    width: 60%;
+}
+
+.content #comment{
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 40px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+}
+
+.content #allcomment{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+}
+.content #allcomment .comment_content{
+    background-color: white;
+    width: 100%;
+    height:40px;
+    align-content: center;
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#editcontent{
+    width: 100%;
+    display: none;
+    margin-top: 10px;
+    border: 2px solid lightblue;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 20px;
+}
+#contentbody{
+   font-family: 'Akaya Kanadaka', cursive;
+    font-size: 20px;
+}
