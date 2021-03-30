@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Scribbler Project
+        </title>
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/bloglist.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="head">
+                <button class="signup" id="signup">Sign Up</button>
+                <!-- The Modal -->
+                <div id="signupmodal" class="modal">
+        
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close" id="closesignup">&times;</span>
+                <center><h2>Get Started</h2></center><hr>
+              </div>
+              <div class="modal-body">
+                  <!--Form-->
+                  <form >
+                    <label for="fname"><b>Full Name</b></label>
+                    <input type="text" id="fname" name="fullname" placeholder="Enter Full Name" required>
+                
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" id="uname" name="username" placeholder="Enter Username" required>
+        
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        
+                    <label for="cpassword"><b>Confirm Password</b></label>
+                    <input type="password" id="cpassword" name="cpassword" placeholder="Current Password" required>
+        
+                    <button id="signupsubmit">Sign Up</button>
+                  </form>
+                    
+        
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        
+                <button class="signin" id="signin">Sign In</button>
+        <!-- The Modal -->
+        <div id="signinmodal" class="modal">
+        
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close" id="closesignin">&times;</span>
+              <center><h2>Welcome Back!</h2></center><hr>
+            </div>
+            <div class="modal-body">
+                <!--Form-->
+                <form >
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" id="uname" name="username" placeholder="Enter Username" required>
+        
+                  <label for="password"><b>Password</b></label>
+                  <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        
+                  <button id="signinsubmit">Sign In</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <center><h4>Not a member?<a href="#" id="signuplink">Sign Up</a></h4></center> 
+            </div>
+          </div>
+        </div>
+        <div class="logoheading">
+        
+                    <span class="logo">ScriBBler</span>
+                    <p class="tagline">Explore Imagine Create</p>
+                  </div>
+            </div>
+            <div class="body"><br><br><br><br><br><br>
+                <table id="main">
+                    <tr>
+                        <td class="main"><div id="post1">
+                            <table id="table1">
+                            <tr>
+                                <td class="post1" rowspan="3" id="name1"><b>Srishti Gupta</b></td>
+                                <td class="post1" id="heading1"><h3>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</h3></td>
+                                <td class="post1" id="delete1"><i class="fa fa-trash-o" id="trash1" style="font-size:24px"></i>
+                                <!--Modal-->
+                                <!-- The Modal -->
+        <div id="trashmodal1" class="modal">
+        
+            <!-- Modal content -->
+            <div class="modal-content"><div class="modal-header">
+
+            </div>
+              <div class="modal-body">
+                  <!--Form-->
+                  <center><h3>Are you sure you want to delete this post?</h3></center><br>
+                  <button class="yes" id="yes1">Yes</button>
+                <button class="no" id="no1">No</button>
+                <br> <br><br>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="post1"><div id="content1"><p>Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p></div></td>
+                                <td class="post1"></td>
+                            </tr>
+                            <tr>
+                                <td class="post1"></td>
+                                <td class="post1" id="dots1"><i class="fa fa-ellipsis-h" style="font-size:24px"></i></td>
+                            </tr>
+                            </table>
+                        </div>
+                       </td>
+                        <td class="main"><div id="post2">
+                            <table id="table2">
+                                <tr>
+                                    <td class="post2" rowspan="3" id="name2"><b>Colby Fayock</b></td>
+                                    <td class="post2" id="heading2"><h3>What is linting and how can it save you time?</h3></td>
+                                    <td class="post2" id="delete2"><i class="fa fa-trash-o" id="trash2" style="font-size:24px"></i>
+                                    <!--Modal-->
+                                <!-- The Modal -->
+        <div id="trashmodal2" class="modal">
+        
+            <!-- Modal content -->
+            <div class="modal-content"><div class="modal-header">
+
+            </div>
+              <div class="modal-body">
+                  <!--Form-->
+                  <center><h3>Are you sure you want to delete this post?</h3></center><br>
+                  <button class="yes" id="yes2">Yes</button>
+                <button class="no" id="no2">No</button>
+                <br> <br><br>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="post2"><div id="content2"><p>One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p></div></td>
+                                    <td class="post2"></td>
+                                </tr>
+                                <tr>
+                                    <td class="post2"></td>
+                                    <td class="post2" id="dots2"><i class="fa fa-ellipsis-h" style="font-size:24px"></i></td>
+                                </tr>
+                            </table>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td class="main"><div id="post3">
+                            <table id="table3">
+                                <tr>
+                                    <td class="post3" rowspan="3" id="name3"><b>Yazeed Bzadough</b></td>
+                                    <td class="post3" id="heading3"><h3>How to Get More Views on Your Tech Blog</h3></td>
+                                    <td class="post3" id="delete3"><i class="fa fa-trash-o" id="trash3" style="font-size:24px"></i>
+                                    <!--Modal-->
+                                <!-- The Modal -->
+        <div id="trashmodal3" class="modal">
+        
+            <!-- Modal content -->
+            <div class="modal-content"><div class="modal-header">
+
+            </div>
+              <div class="modal-body">
+                  <!--Form-->
+                  <center><h3>Are you sure you want to delete this post?</h3></center><br>
+                  <button class="yes" id="yes3">Yes</button>
+                <button class="no" id="no3">No</button>
+                <br> <br><br>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="post3"><div id="content3"><p>If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p></div></td>
+                                    <td class="post3"></td>
+                                </tr>
+                                <tr>
+                                    <td class="post3"></td>
+                                    <td class="post3" id="dots3"><i class="fa fa-ellipsis-h" style="font-size:24px"></i></td>
+                                </tr>
+                            </table>
+                        </div></td>
+                        <td class="main"><div id="post4">
+                            <table id="table4">
+                                <tr>
+                                    <td class="post4" rowspan="3" id="name4"><b>Cedd Burge</b></td>
+                                    <td class="post4" id="heading4"><h3>How to write easily describable code</h3></td>
+                                    <td class="post4" id="delete4"><i class="fa fa-trash-o" id="trash4" style="font-size:24px"></i>
+                                    <!--Modal-->
+                                <!-- The Modal -->
+        <div id="trashmodal4" class="modal">
+        
+            <!-- Modal content -->
+            <div class="modal-content"><div class="modal-header">
+
+            </div>
+              <div class="modal-body">
+                  <!--Form-->
+                  <center><h3>Are you sure you want to delete this post?</h3></center><br>
+                  <button class="yes" id="yes4">Yes</button>
+                <button class="no" id="no4">No</button>
+                <br> <br><br>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="post4"><div id="content4"><p>When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
+leads to confusion when discussing the code.</p></div></td>
+                                    <td class="post4"></td>
+                                </tr>
+                                <tr>
+                                    <td class="post4"></td>
+                                    <td class="post4" id="dots4"><i class="fa fa-ellipsis-h" style="font-size:24px"></i></td>
+                                </tr>
+                            </table>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td class="main" colspan="2"><div id="post5">
+                            <table id="table5">
+                                <tr>
+                                    <td class="post5" rowspan="3" id="name5"><b>Srishti Gupta</b></td>
+                                    <td class="post5" id="heading5"><h3>Everything you should know about ‘module’ & ‘require’ in Node.js</h3></td>
+                                    <td class="post5" id="delete5"><i class="fa fa-trash-o" id="trash5" style="font-size:24px"></i>
+                                    <!--Modal-->
+                                <!-- The Modal -->
+        <div id="trashmodal5" class="modal">
+        
+            <!-- Modal content -->
+            <div class="modal-content"><div class="modal-header">
+
+            </div>
+              <div class="modal-body">
+                  <!--Form-->
+                  <center><h3>Are you sure you want to delete this post?</h3></center><br>
+                  <button class="yes" id="yes5">Yes</button>
+                <button class="no" id="no5">No</button>
+                <br> <br><br>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="post5"><p><div id="content5">Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module named xyz.</p></div></td>
+                                    <td class="post5"></td>
+                                </tr>
+                                <tr>
+                                    <td class="post5"></td>
+                                    <td class="post5" id="dots5"><i class="fa fa-ellipsis-h" style="font-size:24px"></i></td>
+                                </tr>
+                            </table>
+                        </div></td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+        <script src="scripts/header.js"></script>
+        <script src="scripts/bloglist.js"></script>
+    </body>
+</html>
